@@ -1,0 +1,45 @@
+:root {
+    --main-light: #97197d;
+    --main-dark: #3d096b;
+    --main-font-color: #002547;
+}
+.navbar{
+    background-color: var(--main-light);
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+}
+#navbar-search {
+    background-color: #650f53;
+    border: 1px solid #650f53;
+    color: #ffffff;
+    height: 35px;
+}
+.search-bar svg {
+    stroke: #fcfdff;
+}
+#navbar-search::placeholder{
+    color: #fff
+}
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+#navbar-breadcrumbs a{
+    color: #fff;
+}
+#navbar-breadcrumbs li.disabled a{
+    color: #eee;
+}
+.btn.btn-primary{
+    background-color: var(--main-light);
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+    background-color: #650f53;
+    box-shadow: none;
+}
+input[type=checkbox]:checked {
+    background-color: var(--main-light);
+    background-image: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 4.00001L2.66667 5.80001L7 1.20001' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+}
