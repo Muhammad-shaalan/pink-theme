@@ -1,7 +1,7 @@
 # pink-theme
 ## Pink Theme for ERPNEXT
 
-![alt text](https://i.im.ge/2022/10/03/1Kx2eh.Screenshot-2022-10-03-125035.png)
+![alt text](https://i.im.ge/2022/10/03/1K3TQ1.Screenshot-2022-10-03-125035.png)
 
 ### To install pink_theme,
 
