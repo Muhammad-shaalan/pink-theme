@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pink_theme *.css
+recursive-include pink_theme *.csv
+recursive-include pink_theme *.html
+recursive-include pink_theme *.ico
+recursive-include pink_theme *.js
+recursive-include pink_theme *.json
+recursive-include pink_theme *.md
+recursive-include pink_theme *.png
+recursive-include pink_theme *.py
+recursive-include pink_theme *.svg
+recursive-include pink_theme *.txt
+recursive-exclude pink_theme *.pyc
